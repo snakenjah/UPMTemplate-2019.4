@@ -1,7 +1,7 @@
 {
-    "name": "__MyOrganization__.__MyPackage__.Editor",
+    "name": "if.packages.Editor",
     "references": [
-      "__MyOrganization__.__MyPackage__"
+      "if.packages"
     ],
     "includePlatforms": [
         "Editor"
