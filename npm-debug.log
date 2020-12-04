@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\PROGRAMMES\\Unity\\2019.4.15f1\\Editor\\Data\\Tools\\nodejs\\node.exe',
+1 verbose cli   'D:\\PROGRAMMES\\Unity\\2019.4.15f1\\Editor\\Data\\Tools\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   'com.if.package',
+1 verbose cli   '--registry',
+1 verbose cli   'https://packages.unity.com/' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly mapToRegistry name com.if.package
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://packages.unity.com/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'com.if.package',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'com.if.package',
+7 silly mapToRegistry   name: 'com.if.package',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://packages.unity.com/com.if.package
+9 verbose request uri https://packages.unity.com/com.if.package
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 21:50:47
+12 verbose request id 021615b7944151fe
+13 http request GET https://packages.unity.com/com.if.package
+14 http 404 https://packages.unity.com/com.if.package
+15 verbose headers { 'x-powered-by': 'Express',
+15 verbose headers   'content-type': 'application/json; charset=utf-8',
+15 verbose headers   'content-length': '37',
+15 verbose headers   etag: 'W/"25-gZLX/77GjylNO6kyiGZBNSZYryI"',
+15 verbose headers   vary: 'Accept-Encoding',
+15 verbose headers   date: 'Fri, 04 Dec 2020 20:50:47 GMT' }
+16 silly get cb [ 404,
+16 silly get   { 'x-powered-by': 'Express',
+16 silly get     'content-type': 'application/json; charset=utf-8',
+16 silly get     'content-length': '37',
+16 silly get     etag: 'W/"25-gZLX/77GjylNO6kyiGZBNSZYryI"',
+16 silly get     vary: 'Accept-Encoding',
+16 silly get     date: 'Fri, 04 Dec 2020 20:50:47 GMT' } ]
+17 verbose stack Error: no such package available : com.if.package
+17 verbose stack     at makeError (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+17 verbose stack     at Request._callback (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+17 verbose stack     at Request.self.callback (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+17 verbose stack     at emitTwo (events.js:106:13)
+17 verbose stack     at Request.emit (events.js:191:7)
+17 verbose stack     at Request.<anonymous> (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+17 verbose stack     at emitOne (events.js:96:13)
+17 verbose stack     at Request.emit (events.js:188:7)
+17 verbose stack     at IncomingMessage.<anonymous> (D:\PROGRAMMES\Unity\2019.4.15f1\Editor\Data\Tools\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+18 verbose statusCode 404
+19 verbose pkgid com.if.package
+20 verbose cwd D:\WORKSPACE HUGO\PRO\GIT\UPMTemplate-2019.4
+21 error Windows_NT 10.0.18363
+22 error argv "D:\\PROGRAMMES\\Unity\\2019.4.15f1\\Editor\\Data\\Tools\\nodejs\\node.exe" "D:\\PROGRAMMES\\Unity\\2019.4.15f1\\Editor\\Data\\Tools\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view" "com.if.package" "--registry" "https://packages.unity.com/"
+23 error node v6.10.0
+24 error npm  v3.10.10
+25 error code E404
+26 error 404 no such package available : com.if.package
+27 error 404
+28 error 404 'com.if.package' is not in the npm registry.
+29 error 404 You should bug the author to publish it (or use the name yourself!)
+30 error 404 Note that you can also install from a
+31 error 404 tarball, folder, http url, or git url.
+32 verbose exit [ 1, true ]
