@@ -1,7 +1,7 @@
 {
-    "name": "__MyOrganization__.__MyPackage__.Tests",
+    "name": "if.packages.Tests",
     "references": [
-        "__MyOrganization__.__MyPackage__"
+        "if.packages"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"

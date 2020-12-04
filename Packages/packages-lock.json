@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.__my-organization__.__my-package__": {
-      "version": "file:com._my-organization__.__my-package__",
+    "com.if.packages": {
+      "version": "file:com._my-organization__.packages",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

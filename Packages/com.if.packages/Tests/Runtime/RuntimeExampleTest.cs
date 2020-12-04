@@ -3,7 +3,7 @@ using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
 
-namespace __MyOrganization__.__MyPackage__.Tests 
+namespace if.packages.Tests 
 {
 	
 	class RuntimeExampleTest 
